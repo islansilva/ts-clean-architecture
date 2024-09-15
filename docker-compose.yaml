@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  node:
+    build:
+      context: .
+    image: islansilva/ddd-node:prod
+    container_name: ddd-node
+    ports: 
+      - 8080:8080
+    volumes:
+      - ./codenode:/usr/src/app
+    tty: true
+
