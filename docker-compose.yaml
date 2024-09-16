@@ -11,5 +11,5 @@ services:
     volumes:
       - ./codenode:/usr/src/app
     tty: true
-    command: sh -c "npm install && npm start"
+    command: sh -c "npm install"
 
