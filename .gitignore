@@ -1,2 +1,14 @@
+node_modules/
+
+logs/
+*.log
+
+.cache/
+.npm/
+
+.DS_Store
+
+.vscode/
+.idea/
+
 .history/
-codenode/node_modules
